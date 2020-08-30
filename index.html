@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        body, html{
+            height: 100%;
+        }
+        @media screen and (max-width: 767px) {
+            .tab, .screen { display: none; }
+            body { background: rgb(200, 235, 125)!important; }
+        }/*모바일*/
+        @media screen and (min-width: 768px) and (max-width: 959) {
+            .mobile, .screen { display: none; }
+            body { background: rgb(121, 181, 230) !important; }
+        }/*탭*/
+        @media screen and (min-width: 960px) {
+            .tab, .mobile { display: none; }
+            body { background: rgb(255, 86, 86) !important; }
+        }/*스크린*/
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p class="mobile">모바일</p>
+        <p class="tab">탭</p>
+        <p class="screen">스크린</p>
+    </div><!--컨테이너 끗-->
+</body>
+</html>
