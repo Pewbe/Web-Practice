@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+}
+header h1{
+    font-size: x-large;
+}
+/*content*/
+#content{
+    display: flex;
+    margin: 0;
+}
+aside{
+    width: 20%;
+    text-align: center;
+    margin: 0;
+}
+ol{
+    padding: 0;
+}
+aside li{
+    list-style-type: none;
+}
+hr{
+    margin: 0;
+}
+article{
+    margin: 10px;
+}
+h1, h2{
+    margin: 10px;
+}
