@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+table, tr, td, th{
+    text-align: center;
+    border: 1px solid lightgray;
+    border-spacing: 0;
+}
+#red{
+    background-color: #e65a22;
+}
+.border-boxing{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 3px;
+}
