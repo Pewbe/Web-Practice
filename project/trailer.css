@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #008275;
+    list-style-type: none;
+}
+.nav-item{
+    padding: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+.nav-item:hover{
+    background-color: #38a59a;
+}
